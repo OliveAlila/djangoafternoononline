@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/urembo.css' %}">
+  <meta charset="UTF-8">
+  <title>home</title>
+</head>
+<body>
+<a href="{% url 'my_index' %}">Home</a>
+<a href="{% url 'my_about' %}">About</a>
+<a href="{% url 'my_services' %}">Services</a>
+<a href="{% url 'mygallery' %}">Gallery</a>
+<a href="{% url 'my_contact' %}">Contact</a>
+<h2>This is my homepage</h2>
+
+</body>
+</html>

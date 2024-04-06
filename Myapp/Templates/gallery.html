@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/urembo.css' %}">
+  <meta charset="UTF-8">
+  <title>gallery</title>
+</head>
+<body>
+<a href="{% url 'my_gallery' %}">Gallery</a>
+<h2>This is gallery</h2>
+<img src="{% static 'img/istockphoto-685841664-612x612.jpg' %}" alt="">
+<img src="{% static 'img/istockphoto-1130636356-612x612.jpg' %}" alt="">
+<img src="{% static 'img/pexels-photo-250591.jpeg' %}" alt="">
+
+</body>
+</html>
